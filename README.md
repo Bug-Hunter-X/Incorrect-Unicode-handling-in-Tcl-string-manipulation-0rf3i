@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Tcl when dealing with Unicode characters. The `count_occurrences` procedure incorrectly assumes that each character in the string is one byte, leading to inaccurate counts when Unicode characters are present.  The solution demonstrates how to use `utf8` to correctly handle Unicode characters.
